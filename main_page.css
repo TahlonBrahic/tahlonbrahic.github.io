@@ -22,6 +22,7 @@ header {
   top: 0px;
   width: 100%;
   height: 9vw;
+  margin: 0;
   padding: 1vw0px;
   display: flex;
   justify-content: space-between;
@@ -91,8 +92,10 @@ body {
 
 /* Start Welcome Section */
 #welcome-section {
+  margin: 0;
+  padding: 0;
   width: 100%;
-  height: 40vh;
+  height: 30vh;
   position: absolute;
   top: 10vw;
   z-index: 2;
@@ -131,12 +134,12 @@ body {
 /* Start Projects Section */
 #projects {
   position: absolute;
-  top: 50vw;
-  left: 6vw;
+  top: 44%;
   letter-spacing: 2px;
   background-color: #E1BEE7;
 }
 #projects h3 {
+  text-align: center;
   font-size: 3vw;
   z-index: 4;
 }
@@ -144,14 +147,13 @@ body {
   display: flex;
   justify-content: left;
   align-items: left;  
-  position: absolute;
-  top: 20vw;
-  left: 6vw;  
-  width: 50vw;
+  position: relative;
+  width: 100%;
   height: auto;
   font-size: 3vw;
   word-spacing: 1px;
   letter-spacing: 4px;
+  text-algin: center;
 }
 #projectsbar a {
   margin-right: 2vw;
@@ -183,11 +185,10 @@ body {
 
 /* Start Story Block */
 #story_block {
-  position: absolute;
-  top: 100vw;
-  left: 6vw;
-  
+  position: relative;
+  top: 100vw; 
   letter-spacing: 2px;
   font-size: 3vw;
+  text-align: center;
 }
 /* End Story Block */
