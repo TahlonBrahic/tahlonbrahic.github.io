@@ -4,84 +4,88 @@
   margin: 0;
   padding: 0;
 }
+
+html {
+  
+}
+ 
+/* Elements */
 body {
-  background-color: white;
   font-family: 'Raleway', sans-serif;
-  background-color: #F5F9FF;
+  background-color: #F5F5F5;
+}
+
+p {
+  text-align: center;
 }
 
 h1 {
   text-align: center;
-  padding: 20px 0px;
-  margin: 10px 10px;
-  background-image: url('https://images.unsplash.com/photo-1513735539099-cf6e5d559d82?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTM4NTc5MDU&ixlib=rb-1.2.1&q=80');
-  border-radius: 2%;
-  background-size: cover;
-  height: 40vh;
 }
+
 h2 {
-  text-align: center;
-  padding: 20px 20px 20px 20px;
-  margin: 20px;
+  
 }
-h3 {
-  text-align: center;
-  padding: 20px 20px 20px 20px;
-  margin: 20px;
-  font-style: italic;
-}
-#img1 {
-  position: relative;
-  margin: 10px 10px;
-  height: 20vh;
-  width: 25vw;
-  max-width: 40%;
-  border-radius: 5%;
-}
-#img2 {
-  position: relative;
-  left: 10vw;
-  margin: 10px 10px;
-  height: 20vh;
-  width: 25vw;
-  border-radius: 5%;
-}
-#img3 {
-  position: absolute;
-  left: 73vw;
-  margin: 10px 10px;
-  height: 20vh;
-  width: 25vw;
-  border-radius: 5%;
-}
+
 footer {
   text-align: center;
 }
-.bio {
-  border-radius: 10%;
-  border: 1px solid black;
-  margin: 30px 100px;
-  padding: 10px;
-  position: relative;
-  word-spacing: 10;
+
+/* -------- */
+
+
+/* Header */
+.header-container {
+  color: white;
   text-align: center;
+  padding: 20px 0px;
+  margin: 1vh 10vw;
+  border-radius: 5%;
+  min-width: 40vw;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url('https://images.unsplash.com/photo-1547499417-0b7889e0f147?crop=entropy&cs=tinysrgb&fm=jpg&ixid=MnwzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2NTQxMjU1MDk&ixlib=rb-1.2.1&q=80');
+  background-position: center;
+  background-size: center;
+  min-height: 50vh;
 }
-.about {
-  border-radius: 100px;
-  line-height: normal;
-  padding: 15px 30px;
-  text-align: center;
-  text-decoration: none;
-  width: 50%;
-  position: relative;
-  left: 23.5%;
+
+.name-box {
+
 }
-.about-primary {
-  background-color: #DB9A11;
-  color: #FFFFFF;
+
+.desc-box {
+
 }
-#contact, #contact-p {
-  position: relative;
-  top: 40vh;
+/* -------- */
+
+/* -- Main --*/
+.badge {
+  background-color: #D1C4E9
+}
+
+.project-container {
+  padding: 5vh 0vh;
+  min-height: 40vh;
+  max-height: 50vh;
+}
+
+.skills-container {
+  min-height: 40vh;
+  max-height: 50vh;
+  padding: 5vh 0vh;
+}
+
+.links-container {
+  min-height: 40vh;
+  max-height; 50vh;
+  padding: 5vh 0vh;
+}
+
+/* Start Footer */
+footer {
+  border-top: 3px solid black;
 }
 
