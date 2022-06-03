@@ -15,22 +15,6 @@ body {
   background-color: #F5F5F5;
 }
 
-p {
-  text-align: center;
-}
-
-h1 {
-  text-align: center;
-}
-
-h2 {
-  
-}
-
-header {
-  color: white;
-}
-
 footer {
   text-align: center;
 }
@@ -39,23 +23,17 @@ footer {
 
 
 /* -- Main --*/
-.badge {
-  background-color: #D1C4E9
-}
 
 .project-container {
-  min-height: 40vh;
-  max-height: 50vh;
+  min-height: 30vh;
 }
 
 .skills-container {
-  min-height: 40vh;
+  min-height: 30vh;
 }
 
 .links-container {
-  min-height: 40vh;
-  max-height: 50vh;
-  padding: 5vh 0vh;
+  min-height: 30vh;
 }
 
 /* Start Footer */
